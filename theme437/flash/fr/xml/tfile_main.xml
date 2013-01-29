@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content>
+	<!-- general vars -->
+	<section name="settings">
+		<item name="textSelectable">true</item>
+	</section>
+	
+ <section name="configuration">
+ <delta_pics>1</delta_pics>       <!-- distance between adjacent images -->
+ <alpha_bg>90</alpha_bg>          <!-- transparency of the substrate under the comment -->
+ <delta_scr>-16</delta_scr>       <!-- scroller correction -->
+ <pic_smoth>true</pic_smoth>      <!-- image smoothness (true/false)-->
+ <pic_ext>.png</pic_ext>          <!-- big pictures filename extension (.jpg/.png) -->
+ </section>
+
+
+<section name="pages">
+	
+<page name="home page">
+
+<gall name="globalGallery">
+		<folder fName="1" fTitle="FURNITURE">
+			<image imageUrl="_furn01.png" size="30" size_width="30"/>
+			<image imageUrl="_furn02.png" size="30" size_width="30"/>
+			<image imageUrl="_furn03.png" size="30" size_width="30"/>
+		</folder>
+		
+		</gall>
+
+		</page>
+		
+			
+</section>
+
+	
+</content>

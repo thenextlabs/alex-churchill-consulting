@@ -1,0 +1,18 @@
+; $Id: theme437.info,v 1.6 Exp $
+name = theme437
+description = Template Alex Churchill Consulting.
+version = 6.16
+core = 6.x
+engine = phptemplate
+
+version = "6.16"
+project = "drupal"
+datestamp = "1202913006"
+
+php = DRUPAL_MINIMUM_PHP
+
+regions[top] = Top Banner
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+
+regions[content] = Content
